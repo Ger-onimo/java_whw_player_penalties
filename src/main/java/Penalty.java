@@ -10,5 +10,7 @@ public class Penalty {
         return this.penalty;
     }
 
-
+    public String getPenaltyValue() {
+        return this.penalty.getValue();
+    }
 }

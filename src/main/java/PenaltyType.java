@@ -19,4 +19,8 @@ public enum PenaltyType {
         this.value = value;
     }
 
+    public String getValue() {
+        return value;
+    }
+
 }

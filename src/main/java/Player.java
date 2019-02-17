@@ -6,12 +6,15 @@ public class Player {
     private String playerNumber;
     private ArrayList<Penalty> penalties;
     private int maxPenalties;
+    private String exPenalty;
 
     public Player(String playerName, String playerNumber) {
         this.playerName = playerName;
         this.playerNumber = playerNumber;
         this.penalties = new ArrayList<>();
         this.maxPenalties = 7;
+        this.exPenalty = "G";
+
     }
 
     public String getPlayerName(){
@@ -34,12 +37,11 @@ public class Player {
         return true;
     }
 
-//    public boolean expulsion(Penalty penalty){
-//        for(penalty : this.penalties);{
-//            if (penalty == ){
-//                return true;
-//            }
-//        }
-//    }
-
+    public boolean expulsionPenalty() {
+        for (Penalty penalty : this.penalties) {
+            if (penalty.getPenaltyValue() == this.exPenalty);
+        }
+        return true;
+    }
 }
+

@@ -18,7 +18,7 @@ public class PlayerTest {
         penalty5 = new Penalty(PenaltyType.CUT_TRACK);
         penalty6 = new Penalty(PenaltyType.HEAD_BLOCK);
         penalty7 = new Penalty(PenaltyType.EXPULSION);
-        penaltyEX = new Penalty(PenaltyType.EXPULSION);
+        penaltyEx = new Penalty(PenaltyType.EXPULSION);
     }
 
     @Test
@@ -64,6 +64,6 @@ public class PlayerTest {
     public void HasExpulsionPenalty(){
 //        expulsionPenalty = new Penalty(PenaltyType.EXPULSION);
         player.addPenalty(penaltyEx);
-        assertEquals(true, player.expulsion());
+        assertEquals(true, player.expulsionPenalty());
     }
 }

@@ -16,4 +16,9 @@ public class PenaltyTest {
     public void canGetPenalty(){
         assertEquals(PenaltyType.BACKBLOCK, penalty.getPenalty());
     }
+
+    @Test
+    public void canGetPenaltyValue(){
+        assertEquals("B", penalty.getPenaltyValue());
+    }
 }

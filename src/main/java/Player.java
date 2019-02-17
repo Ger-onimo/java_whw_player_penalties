@@ -6,7 +6,6 @@ public class Player {
     private String playerNumber;
     private ArrayList<Penalty> penalties;
 
-
     public Player(String playerName, String playerNumber) {
         this.playerName = playerName;
         this.playerNumber = playerNumber;

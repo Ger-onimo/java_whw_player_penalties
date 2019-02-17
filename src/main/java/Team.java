@@ -24,10 +24,9 @@ public class Team {
     }
 
     public void removePlayer(Player player) {
-//        for (Penalty penalty : player) {
-//            if (penalty == PenaltyType.EXPULSION) ;
-            this.teamPlayers.remove(player);
+        this.teamPlayers.remove(player);
         }
+
 }
 
 

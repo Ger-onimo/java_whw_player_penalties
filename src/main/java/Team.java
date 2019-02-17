@@ -24,7 +24,7 @@ public class Team {
     }
 
     public void removePlayer(Player player) {
-        if (player.hasMaximumPenalties());
+        if (player.maximumPenalties());
         this.teamPlayers.remove(player);
         }
 

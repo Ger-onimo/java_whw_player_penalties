@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 public class PlayerTest {
 
     private Player player;
-    private Penalty penalty1, penalty2, penalty3, penalty4, penalty5, penalty6, penalty7;
+    private Penalty penalty1, penalty2, penalty3, penalty4, penalty5, penalty6, penalty7, penaltyEx;
 
     @Before
     public void before() {
@@ -17,7 +17,8 @@ public class PlayerTest {
         penalty4 = new Penalty(PenaltyType.MULTIPLAYER);
         penalty5 = new Penalty(PenaltyType.CUT_TRACK);
         penalty6 = new Penalty(PenaltyType.HEAD_BLOCK);
-        penalty7 = new Penalty(PenaltyType.CLOCKWISE);
+        penalty7 = new Penalty(PenaltyType.EXPULSION);
+        penaltyEX = new Penalty(PenaltyType.EXPULSION);
     }
 
     @Test
@@ -47,7 +48,6 @@ public class PlayerTest {
         assertEquals(7, player.getNumberOfPenalties());
     }
 
-
     @Test
     public void HasMaximumNumberOfPenaltiesAllowed(){
         player.addPenalty(penalty1);
@@ -57,8 +57,13 @@ public class PlayerTest {
         player.addPenalty(penalty5);
         player.addPenalty(penalty6);
         player.addPenalty(penalty7);
-        assertEquals(true, player.hasMaximumPenalties());
+        assertEquals(true, player.maximumPenalties());
     }
 
-
+    @Test
+    public void HasExpulsionPenalty(){
+//        expulsionPenalty = new Penalty(PenaltyType.EXPULSION);
+        player.addPenalty(penaltyEx);
+        assertEquals(true, player.expulsion());
+    }
 }

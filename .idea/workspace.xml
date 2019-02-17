@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="389fa317-2638-481c-87d2-9ab3d49aef00" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Player.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TeamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TeamTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -64,24 +63,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1013" />
+          <entry key="java" value="1454" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1013" />
+          <entry key="JAVA" value="1454" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="26" />
+          <entry key="java" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="28" />
         </counts>
       </usages-collector>
     </session>
@@ -89,19 +88,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Team.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PenaltyType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+            <state relative-caret-position="43">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Team.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="26" selection-start-line="26" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="217">
+              <caret line="43" selection-start-line="36" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -115,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+            <state relative-caret-position="186">
+              <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -127,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PenaltyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="183">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -136,8 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TeamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="65" column="52" lean-forward="true" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
+            <state relative-caret-position="373">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
@@ -464,9 +472,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="39" />
+    <option name="y" value="34" />
     <option name="width" value="1280" />
-    <option name="height" value="703" />
+    <option name="height" value="649" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -521,7 +529,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550436906871" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550441324618" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -613,21 +622,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TeamTest - 2019.02.17 at 19h 44m 39s.xml">
-      <configuration name="TeamTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TeamTest - 2019.02.17 at 20h 13m 19s.xml">
-      <configuration name="TeamTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest - 2019.02.17 at 20h 13m 22s.xml">
-      <configuration name="PlayerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest - 2019.02.17 at 20h 20m 50s.xml">
-      <configuration name="PlayerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest - 2019.02.17 at 20h 22m 02s.xml">
-      <configuration name="PlayerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PlayerTest - 2019.02.17 at 20h 25m 09s.xml">
       <configuration name="PlayerTest" configurationId="JUnit" />
     </history-entry>
@@ -643,9 +637,24 @@
     <history-entry file="TeamTest - 2019.02.17 at 20h 47m 42s.xml">
       <configuration name="TeamTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PlayerTest - 2019.02.17 at 20h 53m 57s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest - 2019.02.17 at 20h 55m 17s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest - 2019.02.17 at 21h 01m 54s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest - 2019.02.17 at 21h 02m 05s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest - 2019.02.17 at 21h 02m 09s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="46" width="1280" height="703" extended-state="0" />
+    <frame x="0" y="34" width="1280" height="649" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2453125" />
@@ -657,8 +666,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.346519" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5744681" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44693878" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29113925" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -666,7 +675,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32884097" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.37025318" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.36851212" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -683,20 +692,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/PenaltyType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="281" selection-start-line="281" selection-end-line="281" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -830,10 +825,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PenaltyType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="281" selection-start-line="281" selection-end-line="281" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TeamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="26" selection-start-line="26" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PenaltyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="183">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -844,31 +874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TeamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="65" column="52" lean-forward="true" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+        <state relative-caret-position="217">
+          <caret line="43" selection-start-line="36" selection-end-line="43" />
         </state>
       </provider>
     </entry>

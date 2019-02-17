@@ -29,8 +29,17 @@ public class Player {
         return this.penalties.size();
     }
 
-    public boolean hasMaximumPenalties(){
-        if (this.penalties.size() == this.maxPenalties);
+    public boolean maximumPenalties(){
+        if (getNumberOfPenalties() == this.maxPenalties);
         return true;
     }
+
+//    public boolean expulsion(Penalty penalty){
+//        for(penalty : this.penalties);{
+//            if (penalty == ){
+//                return true;
+//            }
+//        }
+//    }
+
 }

@@ -5,11 +5,13 @@ public class Player {
     private String playerName;
     private String playerNumber;
     private ArrayList<Penalty> penalties;
+    private int maxPenalties;
 
     public Player(String playerName, String playerNumber) {
         this.playerName = playerName;
         this.playerNumber = playerNumber;
         this.penalties = new ArrayList<>();
+        this.maxPenalties = 7;
     }
 
     public String getPlayerName(){
@@ -27,4 +29,8 @@ public class Player {
         return this.penalties.size();
     }
 
+    public boolean hasMaximumPenalties(){
+        if (this.penalties.size() == this.maxPenalties);
+        return true;
+    }
 }

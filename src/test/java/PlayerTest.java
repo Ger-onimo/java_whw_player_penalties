@@ -31,6 +31,11 @@ public class PlayerTest {
     }
 
     @Test
+    public void canGetNumberOfPenalties(){
+        assertEquals(0, player.getNumberOfPenalties());
+    }
+
+    @Test
     public void canAddPenalty(){
         player.addPenalty(penalty1);
         player.addPenalty(penalty2);
@@ -42,9 +47,18 @@ public class PlayerTest {
         assertEquals(7, player.getNumberOfPenalties());
     }
 
+
     @Test
-    public void canGetNumberOfPenalties(){
-        assertEquals(0, player.getNumberOfPenalties());
+    public void HasMaximumNumberOfPenaltiesAllowed(){
+        player.addPenalty(penalty1);
+        player.addPenalty(penalty2);
+        player.addPenalty(penalty3);
+        player.addPenalty(penalty4);
+        player.addPenalty(penalty5);
+        player.addPenalty(penalty6);
+        player.addPenalty(penalty7);
+        assertEquals(true, player.hasMaximumPenalties());
     }
+
 
 }

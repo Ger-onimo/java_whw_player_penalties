@@ -23,6 +23,12 @@ public class TeamTest {
         player5 = new Player("Life", "10");
         penalty1 = new Penalty(PenaltyType.CUT_TRACK);
         penalty2 = new Penalty(PenaltyType.BACKBLOCK);
+        penalty3 = new Penalty(PenaltyType.FOREARMS);
+        penalty4 = new Penalty(PenaltyType.MULTIPLAYER);
+        penalty5 = new Penalty(PenaltyType.CUT_TRACK);
+        penalty6 = new Penalty(PenaltyType.HEAD_BLOCK);
+        penalty7 = new Penalty(PenaltyType.CLOCKWISE);
+
 
     }
 
@@ -60,5 +66,17 @@ public class TeamTest {
         assertEquals(1, team1.getNumberOfPlayers());
     }
 
+//    @Test
+//    public void canRemovePlayerFromTeam1(){
+//        team1.addPlayer(player1);
+//        team1.addPlayer(player4);
+//        assertEquals(2, team1.getNumberOfPlayers());
+//        team1.removePlayer(player1);
+//        assertEquals(1, team1.getNumberOfPlayers());
+//    }
+
+
+//        player1.addPenalty(penalty1);
+//        player1.addPenalty(penalty2);
 
 }

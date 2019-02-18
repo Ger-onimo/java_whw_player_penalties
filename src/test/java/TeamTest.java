@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import static org.junit.Assert.assertEquals;
 
@@ -75,4 +76,5 @@ public class TeamTest {
         team1.expelPlayer(player4);
         assertEquals(1, team1.getNumberOfPlayers());
     }
+
 }

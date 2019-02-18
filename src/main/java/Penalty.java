@@ -6,7 +6,7 @@ public class Penalty {
         this.penalty = penalty;
     }
 
-    public PenaltyType getPenalty(){
+    public PenaltyType getPenaltyName(){
         return this.penalty;
     }
 

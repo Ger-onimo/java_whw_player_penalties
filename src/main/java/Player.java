@@ -13,7 +13,7 @@ public class Player {
         this.playerNumber = playerNumber;
         this.penalties = new ArrayList<>();
         this.maxPenalties = 7;
-        this.exPenalty = "G";
+        this.exPenalty = "Expulsion";
 
     }
 

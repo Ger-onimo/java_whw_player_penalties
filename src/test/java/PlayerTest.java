@@ -17,7 +17,7 @@ public class PlayerTest {
         penalty4 = new Penalty(PenaltyType.MULTIPLAYER);
         penalty5 = new Penalty(PenaltyType.CUT_TRACK);
         penalty6 = new Penalty(PenaltyType.HEAD_BLOCK);
-        penalty7 = new Penalty(PenaltyType.EXPULSION);
+        penalty7 = new Penalty(PenaltyType.LOW_BLOCK);
         penaltyEx = new Penalty(PenaltyType.EXPULSION);
     }
 

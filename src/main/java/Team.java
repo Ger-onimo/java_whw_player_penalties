@@ -5,14 +5,15 @@ public class Team {
 
     private String teamName;
     private ArrayList<Player> teamPlayers;
-
+    private HashMap<Player, ArrayList<Penalty>> playersPenalties;
 
 
     public Team(String teamName){
         this.teamName = teamName;
         this.teamPlayers = new ArrayList<>();
-
+        this.playersPenalties = new HashMap<>();
     }
+
 
     public String getTeamName(){
         return this.teamName;

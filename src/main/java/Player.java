@@ -8,7 +8,6 @@ public class Player {
     private ArrayList<Penalty> penalties;
     private int maxPenalties;
     private String exPenalty;
-//    private HashMap<String, String> penaltyCounts;
 
 
     public Player(String playerName, String playerNumber) {
@@ -17,7 +16,6 @@ public class Player {
         this.penalties = new ArrayList<>();
         this.maxPenalties = 7;
         this.exPenalty = "Expulsion";
-//        this.penaltyCounts = new HashMap<>();
 
     }
 

@@ -77,4 +77,13 @@ public class TeamTest {
         assertEquals(1, team1.getNumberOfPlayers());
     }
 
+//    @Test
+//    public void cangetGenreCount(){
+//        team1.addPlayer(player1);
+//        team1.addPlayer(player1);
+//        HashMap<String, String> result = player1.getPenalties();
+//        assertEquals(2, result);
+//    }
+
+
 }
